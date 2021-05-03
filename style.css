@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+body{
+    background-color:#f6f5f5 ;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height:95vh;
+    background-image: url("background-3.jpg");
+    background-repeat: none-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+   
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5% ;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color:#505050;
+    font-size:15px;
+    font-weight: 700;
+}
+.name{
+    font-family: URW Chancery L, cursive;
+    color:#000000;
+    font-size: 30px;
+}
+.active{
+    font-weight: bold;
+    color:#2d2a2a;
+}
+.text-conatiner p:nth-child(1){
+    font-family:calibri;
+    font-weight: bold;
+    color:#ffffff;
+    font-size: 22px;
+}
+.text-conatiner p:nth-child(2){
+    font-family: Luminari, fantasy;
+    font-weight:bold;
+    letter-spacing: 2px;
+    color:#ffffff;
+    font-size: 55px;
+}
+.text-conatiner p:nth-child(3){
+    font-family: myriad proregular;
+    color:#f0b30b;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-conatiner p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-conatiner{
+    position:absolute;
+    left: 13%;
+    top:42%;
+    transform: translate(-13%,-42%);
+}
+.text-conatiner button{
+    width: 150px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size:14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.hire{
+    border:2px solid #373636;
+    color:#373636;
+}
+.CV{
+    background-color: #f0b30b;
+    color: #2634f7; 
+    border:none;
+}
+button:active{
+    transform:scale(1.1);
+
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    background: #6d6c6c;
+    width: 100%;
+    padding: 10px;
+    font-family: myriad pro regular;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+footer span {
+    display:inline-block;
+    min-width: 230px;
+    margin: 10px 0 10px 0;
+    text-align:right;
+    position: relative;
+}
+footer span a {
+    text-decoration:wavy;
+    color: #ffffff;
+    transition: all 0.2s ease-in;
+    position: relative;
+}
+footer span a:hover {
+    color: 99;
+}
+.r{
+    left: 270px;
+}
+.r1{
+    font-family: DotGothic16;
+        font-size: 16px;
+        left:140px;
+        font-weight: bold;
+}
+
+.guitar{
+    max-height: 80%;
+    max-width: 100%;
+    position:absolute;
+    bottom: 60px;
+    left: 85%;
+    transform: translate(-80%);
+
+}
+footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    background: #e9b05b;
+    width: 100%;
+    padding: 10px;
+    font-family: myriad pro regular;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+}
+footer span {
+    display:inline-block;
+    min-width: 230px;
+    margin: 10px 0 10px 0;
+    text-align:right;
+    position: relative;
+}
+footer span a {
+    text-decoration:wavy;
+    color: #ffffff;
+    transition: all 0.2s ease-in;
+    position: relative;
+}
+
+.r{
+    left: 270px;
+}
+.r1{
+    font-family: DotGothic16;
+        font-size: 16px;
+        left:140px;
+        font-weight: bold;
+}
+.me{
+    height: 650px;
+    position: absolute;
+    bottom: 0px;
+    left: 85%;
+    transform: translate(-70%);
+
+}
+footer p{
+	font-family: monospace;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	font-weight:bold;
+	color:#191919;
+	line-height:10px;
+}
+footer p:nth-child(2){
+	font-size: 16px;
+	color:#000000;
+	width:600px;
+	text-align: center;
+}
+footer{
+	height:250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 60px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
